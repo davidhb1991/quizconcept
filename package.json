@@ -1,0 +1,29 @@
+{
+  "name": "quizconcept",
+  "version": "1.0.0",
+  "description": "A simple quiz application to demonstrate proficiency in the following front end technologies and methodologies: javascript, Sass, CSS3 with BEM and IT and Gulp.  NPM also used for project set up.",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidhb1991/quizconcept.git"
+  },
+  "keywords": [
+    "JS",
+    "CSS3",
+    "BEM",
+    "IT",
+    "HTML5",
+    "Gulp",
+    "NPM",
+    "GIT"
+  ],
+  "author": "David Henry Birchall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidhb1991/quizconcept/issues"
+  },
+  "homepage": "https://github.com/davidhb1991/quizconcept#readme"
+}

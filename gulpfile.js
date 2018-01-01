@@ -4,8 +4,8 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 gulp.task('default', defaultTask);
-gulp.task('compileSass', compileSass);
-gulp.task('watchSass', watchSass);
+gulp.task('sass', compileSass);
+gulp.task('sass:watch', watchSass);
 gulp.task('outputMinified', outputMinified);
 
 function defaultTask(done) {
@@ -21,9 +21,9 @@ function compileSass() {
 }
 
 function watchSass() {
-    gulp.watch('./sass/**/*.scss', ['compileSass'])
+    gulp.watch('./sass/**/*.scss', ['sass'])
 }
 
-function outputMinifed() {
-
+function outputMinified() {
+    return "code for minification should go here";
 }

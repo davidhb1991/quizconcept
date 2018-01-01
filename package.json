@@ -28,7 +28,11 @@
     "homepage": "https://github.com/davidhb1991/quizconcept#readme",
     "dependencies": {
         "chai": "^4.1.2",
+        "gulp": "^3.9.1",
         "mocha": "^4.1.0",
         "request": "^2.83.0"
+    },
+    "devDependencies": {
+        "gulp-sass": "^3.1.0"
     }
 }
